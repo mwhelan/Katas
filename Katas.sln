@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20617.1 PREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.PrimeNumbers", "Katas.PrimeNumbers\Katas.PrimeNumbers.csproj", "{9704A03E-EFC6-4E34-B329-708BA1CA342A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.FibonacciSequence", "Katas.FibonacciSequence\Katas.FibonacciSequence.csproj", "{BC979930-D00F-43F0-A06B-A5935860A0E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.BankTransfer", "Katas.BankTransfer\Katas.BankTransfer.csproj", "{8C11C846-DBCD-4305-91EA-625267442041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Fibonacci", "Katas.Fibonacci\Katas.Fibonacci.csproj", "{09E532FE-B60F-40A2-8E4B-8FE53946945C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.FizzBuzz", "Katas.FizzBuzz\Katas.FizzBuzz.csproj", "{501917BB-B096-47ED-BECB-AAD8BD94C55D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.FizzBuzzWhiz", "Katas.FizzBuzzWhiz\Katas.FizzBuzzWhiz.csproj", "{1FEB5512-9367-4FDD-B7F2-AFCF83CA9615}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D3ED4EA5-28F6-4983-9135-C7232BFCBA94}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.StringCalculator", "Katas.StringCalculator\Katas.StringCalculator.csproj", "{4922A721-B8CC-4262-9A17-CED74831CB78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.WordCounter", "Katas.WordCounter\Katas.WordCounter.csproj", "{F9608D49-F747-4DA1-8724-1D7B3F40710F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Pager", "Katas.Pager\Katas.Pager.csproj", "{D7AA66BD-F943-4AB3-9D6D-4253FED9331F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Anagrams", "Katas.Anagrams\Katas.Anagrams.csproj", "{CB464400-9FED-45E6-8D3E-47B5C5A90D61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9704A03E-EFC6-4E34-B329-708BA1CA342A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9704A03E-EFC6-4E34-B329-708BA1CA342A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9704A03E-EFC6-4E34-B329-708BA1CA342A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9704A03E-EFC6-4E34-B329-708BA1CA342A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC979930-D00F-43F0-A06B-A5935860A0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC979930-D00F-43F0-A06B-A5935860A0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC979930-D00F-43F0-A06B-A5935860A0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC979930-D00F-43F0-A06B-A5935860A0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C11C846-DBCD-4305-91EA-625267442041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C11C846-DBCD-4305-91EA-625267442041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C11C846-DBCD-4305-91EA-625267442041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C11C846-DBCD-4305-91EA-625267442041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09E532FE-B60F-40A2-8E4B-8FE53946945C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E532FE-B60F-40A2-8E4B-8FE53946945C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E532FE-B60F-40A2-8E4B-8FE53946945C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E532FE-B60F-40A2-8E4B-8FE53946945C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{501917BB-B096-47ED-BECB-AAD8BD94C55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501917BB-B096-47ED-BECB-AAD8BD94C55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501917BB-B096-47ED-BECB-AAD8BD94C55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501917BB-B096-47ED-BECB-AAD8BD94C55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FEB5512-9367-4FDD-B7F2-AFCF83CA9615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEB5512-9367-4FDD-B7F2-AFCF83CA9615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEB5512-9367-4FDD-B7F2-AFCF83CA9615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEB5512-9367-4FDD-B7F2-AFCF83CA9615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4922A721-B8CC-4262-9A17-CED74831CB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4922A721-B8CC-4262-9A17-CED74831CB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4922A721-B8CC-4262-9A17-CED74831CB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4922A721-B8CC-4262-9A17-CED74831CB78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9608D49-F747-4DA1-8724-1D7B3F40710F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9608D49-F747-4DA1-8724-1D7B3F40710F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9608D49-F747-4DA1-8724-1D7B3F40710F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9608D49-F747-4DA1-8724-1D7B3F40710F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7AA66BD-F943-4AB3-9D6D-4253FED9331F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7AA66BD-F943-4AB3-9D6D-4253FED9331F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7AA66BD-F943-4AB3-9D6D-4253FED9331F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7AA66BD-F943-4AB3-9D6D-4253FED9331F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB464400-9FED-45E6-8D3E-47B5C5A90D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB464400-9FED-45E6-8D3E-47B5C5A90D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB464400-9FED-45E6-8D3E-47B5C5A90D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB464400-9FED-45E6-8D3E-47B5C5A90D61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
