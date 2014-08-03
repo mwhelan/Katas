@@ -1,5 +1,7 @@
 # The Fibonacci Sequence Kata #
 
+Source: Jason Gorman ([Codemanship](http://codemanship.co.uk/tdd.html))
+
 Write a C# script that writes out the number for a given position in the Fibonacci Sequence
 
 ## Example ##
