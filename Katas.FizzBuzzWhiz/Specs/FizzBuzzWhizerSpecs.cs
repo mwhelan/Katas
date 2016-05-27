@@ -1,10 +1,10 @@
 ﻿using Katas.FizzBuzzWhiz.Code;
 using NUnit.Framework;
 
-namespace Katas.FizzBuzzWhiz.Tests
+namespace Katas.FizzBuzzWhiz.Specs
 {
     [TestFixture]
-    public class FizzBuzzWhizerTests
+    public class FizzBuzzWhizerSpecs
     {
         [Test]
         public void FizzBuzzWhizValueForOneShouldBeOne()

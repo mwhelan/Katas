@@ -1,14 +1,12 @@
-﻿using System;
-using FluentAssertions;
-using Katas.FibonacciSequence.Code;
+﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace Katas.FibonacciSequence.Tests
+namespace Katas.FibonacciSequence.Specs
 {
     // Given the sequence 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
     // Supplying position 5 would print 3
     [TestFixture]
-    public class FibonacciSequenceTests
+    public class FibonacciSequenceSpecs
     {
         [Test]
         public void Zero_Should_Return_Zero()

@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace Katas.WordCounter
 {
     [TestFixture]
-    public class WordCounterTests
+    public class WordCounterSpecs
     {
         [Test]
         public void empty_string_should_return_empty_collection()

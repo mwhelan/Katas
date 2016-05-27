@@ -1,10 +1,10 @@
 ﻿using Katas.BankTransfer.Code;
 using NUnit.Framework;
 
-namespace Katas.BankTransfer.Tests
+namespace Katas.BankTransfer.Specs
 {
     [TestFixture]
-    public class AccountTests
+    public class AccountSpecs
     {
         private Account payer;
         private Account payee;

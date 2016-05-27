@@ -1,10 +1,9 @@
-﻿using Katas.Fibonacci.Code;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
-namespace Katas.Fibonacci.Tests
+namespace Katas.Fibonacci
 {
     [TestFixture]
-    public class FibonacciGeneratorTests
+    public class FibonacciGeneratorSpecs
     {
         [Test]
         public void FibonacciValueOfZeroShouldBeZero()

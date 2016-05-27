@@ -55,13 +55,13 @@
   <ItemGroup>
     <Compile Include="Code\FibonacciGenerator.cs" />
     <Compile Include="Code\FibonacciGeneratorLoop.cs" />
-    <Compile Include="Tests\FibonacciSequenceTests.cs" />
+    <Compile Include="Specs\FibonacciSequenceSpecs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="FibonacciSeqenceKata.md" />
     <None Include="packages.config" />
+    <None Include="readme.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

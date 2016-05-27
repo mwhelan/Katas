@@ -55,7 +55,7 @@
   <ItemGroup>
     <Compile Include="Counter.cs" />
     <Compile Include="TestHelpers.cs" />
-    <Compile Include="WordCounterTests.cs" />
+    <Compile Include="WordCounterSpecs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

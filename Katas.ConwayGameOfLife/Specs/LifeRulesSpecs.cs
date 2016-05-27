@@ -2,10 +2,10 @@
 using Katas.ConwayGameOfLife.Code;
 using NUnit.Framework;
 
-namespace Katas.ConwayGameOfLife.Tests
+namespace Katas.ConwayGameOfLife.Specs
 {
     [TestFixture]
-    public class LifeRulesTests
+    public class LifeRulesSpecs
     {
         // Any live cell with fewer than two live neighbours dies, as if caused by under-population.
         // Any live cell with two or three live neighbours lives on to the next generation.

@@ -7,7 +7,7 @@ namespace Katas.PrimeNumbers
     //  41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97
 
     [TestFixture]
-    public class PrimeNumberTests
+    public class PrimeNumberSpecs
     {
         private PrimeCalculator SUT;
 

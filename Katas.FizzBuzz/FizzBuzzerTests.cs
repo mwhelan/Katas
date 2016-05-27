@@ -1,10 +1,9 @@
-﻿using Katas.FizzBuzz.Code;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
-namespace Katas.FizzBuzz.Tests
+namespace Katas.FizzBuzz
 {
     [TestFixture]
-    public class FizzBuzzTests
+    public class FizzBuzzSpecs
     {
         [Test]
         public void FizzBuzzValueForOneShouldBeOne()

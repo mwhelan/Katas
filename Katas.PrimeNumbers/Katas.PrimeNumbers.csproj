@@ -54,7 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PrimeCalculator.cs" />
-    <Compile Include="PrimeNumberTests.cs" />
+    <Compile Include="PrimeNumberSpecs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

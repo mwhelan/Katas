@@ -1,4 +1,4 @@
-﻿namespace Katas.Fibonacci.Code
+﻿namespace Katas.Fibonacci
 {
     public class FibonacciGenerator
     {

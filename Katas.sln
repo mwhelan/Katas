@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.PrimeNumbers", "Katas.PrimeNumbers\Katas.PrimeNumbers.csproj", "{9704A03E-EFC6-4E34-B329-708BA1CA342A}"
 EndProject
@@ -31,6 +31,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Anagrams", "Katas.Anagrams\Katas.Anagrams.csproj", "{CB464400-9FED-45E6-8D3E-47B5C5A90D61}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.ConwayGameOfLife", "Katas.ConwayGameOfLife\Katas.ConwayGameOfLife.csproj", "{F284CF9E-3FAB-42EF-9F1D-B883BFADB99D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.LeapYear", "Katas.LeapYear\Katas.LeapYear.csproj", "{BD1C6943-3414-4A7E-A6AD-BE8EAACAA2B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -82,6 +84,10 @@ Global
 		{F284CF9E-3FAB-42EF-9F1D-B883BFADB99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F284CF9E-3FAB-42EF-9F1D-B883BFADB99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F284CF9E-3FAB-42EF-9F1D-B883BFADB99D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1C6943-3414-4A7E-A6AD-BE8EAACAA2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1C6943-3414-4A7E-A6AD-BE8EAACAA2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1C6943-3414-4A7E-A6AD-BE8EAACAA2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1C6943-3414-4A7E-A6AD-BE8EAACAA2B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

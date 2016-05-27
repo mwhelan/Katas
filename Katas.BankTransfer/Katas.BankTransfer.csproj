@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Code\Account.cs" />
-    <Compile Include="Tests\AccountTests.cs" />
+    <Compile Include="Specs\AccountSpecs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Code\Transaction.cs" />
   </ItemGroup>

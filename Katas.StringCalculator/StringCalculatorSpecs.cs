@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using FluentAssertions;
 using NUnit.Framework;
 
@@ -17,7 +16,7 @@ namespace Katas.StringCalculator
 //Many single or multi-char delimiters can be defined (each wrapped in square brackets)
 
     [TestFixture]
-    public class StringCalculatorTests
+    public class StringCalculatorSpecs
     {
         [Test]
         public void Empty_string_should_return_zero()
@@ -78,40 +77,6 @@ namespace Katas.StringCalculator
         {
             var calculator = new Calculator();
             return calculator.Add(numbers);
-        }
-    }
-
-    public class Calculator
-    {
-        public int Add(string numbers)
-        {
-            if (string.IsNullOrEmpty(numbers))
-            {
-                return 0;
-            }
-
-            char[] delimiters;
-            if (numbers.StartsWith("//"))
-            {
-                delimiters = new char[]{numbers[2]};
-                numbers = numbers.Substring(4);
-            }
-            else
-            {
-                delimiters = new char[]{',','\n'};
-            }
-            var strings = numbers
-                .Split(delimiters)
-                .Select(int.Parse);
-
-            if (strings.Any(x => x <0))
-            {
-                 throw new ArgumentOutOfRangeException();
-            }
-
-            return strings
-                .Where(x => x <= 1000)
-                .Sum(x => x);
         }
     }
 }
